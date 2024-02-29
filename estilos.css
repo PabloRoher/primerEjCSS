@@ -1,0 +1,41 @@
+.columna {
+    float: left;
+    padding: 1px;
+}
+
+/* Aplica estilo a los divs para diferenciarlos y manejar su espaciado */
+#div1, #div2, #div3, #div4, #div5 {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    width: 250px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#div1 { background-color: blue;
+
+    height: 150px;
+}
+#div2 { background-color: red;
+
+    height: 100px;
+}
+#div3 { background-color: green;
+
+    height: 50px;
+
+}
+#div4 { background-color: yellow; color: black;
+
+    height: 120px;
+
+}
+#div5 { background-color: purple;
+
+    height: 50px;
+}
+
