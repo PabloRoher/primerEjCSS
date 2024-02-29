@@ -1,1 +1,1 @@
-repositorio: https://github.com/PabloRoher/primerEjCSS
+repositorio: https://github.com/PabloRoher/primerEjCSS.git
