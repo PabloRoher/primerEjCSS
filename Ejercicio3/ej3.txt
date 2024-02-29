@@ -1,0 +1,38 @@
+HTML:
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dos Headers</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header-izquierda">Header Izquierda</header>
+        <header class="header-derecha">Header Derecha</header>
+    </div>
+</body>
+</html>
+
+
+CSS:
+.contenedor {
+    display: flex;
+    width: 100%; 
+}
+
+.header-izquierda {
+    flex: 1;
+    width: 20%;
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+}
+
+.header-derecha {
+    flex: 4;
+    width: 80%;
+    background-color: #6495ED;
+    color: white;
+    padding: 10px;
+}
